@@ -1,0 +1,67 @@
+
+
+.timeline-wrapper {
+    padding: 100px 0;
+    background-color: pink;
+    border-top: 10px solid $purple;
+    border-bottom: 10px solid $purple;
+}
+
+.react-horizontal-scrolling-menu--wrapper  {
+    button {
+        background-color: $blue;
+
+    }
+
+    .scroll-menu {
+
+    }
+    .card-wrapper {
+
+    }
+    .card {
+        background-color: #c48bd8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100px;
+        }
+
+    }
+    .arrow {
+        padding: 0 50px;
+        transition: .3s opacity;
+        border: white;
+        &:hover {
+            opacity: .6;
+        }
+    }
+    .react-horizontal-scrolling-menu--wrapper  {
+        background-color: red;
+    }
+    /* styles.css */
+
+.scroll-menu {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    scrollbar-width: thin; /* Set the width of the scrollbar */
+    background-color: red;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: red; /* Grey background color */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; /* Dark grey */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: red!important; /* Black */
+  }
+  
+}
